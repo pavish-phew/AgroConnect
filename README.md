@@ -52,7 +52,7 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   https://github.com/lokesh-kumaravel/AgroConnect.git
+   https://github.com/pavish-phew/AgroConnect
 
 2. Navigate into the project directory:
    ```bash
@@ -98,8 +98,8 @@ This project is licensed under the [MIT License](./LICENSE). See the LICENSE fil
 
 For any inquiries or feedback, feel free to reach out:
 
-- **Name**: Lokesh K
-- **Email**: [lokeshkumaravel29@gmail.com](mailto:lokeshkumaravel29@gmail.com)
-- **GitHub**: [lokesh-kumaravel](https://github.com/lokesh-kumaravel)
-- **LinkedIn**: [Lokesh K](https://www.linkedin.com/in/lokesh-k-5b7513276)
+- **Name**: Pavish S
+- **Email**: [pavishs127@gmail.com](mailto:pavishs127@gmail.com)
+- **GitHub**: [pavish-phew](https://github.com/pavish-phew)
+- **LinkedIn**: [Pavish S](https://www.linkedin.com/in/pavish-s12)
 
