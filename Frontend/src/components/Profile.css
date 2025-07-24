@@ -1,0 +1,223 @@
+.btn {
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: scale(0.95); 
+}
+
+.profile-card {
+    /* padding-top: 30%; */
+    display: flex;
+    align-items: center; 
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px; 
+}
+
+.profile-photo {
+    width: 80px; 
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-name {
+    margin: 0; 
+    font-size: 1.5rem; 
+    font-weight: bold;
+}
+
+.profile-email, .profile-products {
+    margin: 5px 0; 
+    font-size: 1rem;
+    color: #555; 
+}
+
+
+
+
+
+
+
+
+/* Basic styling for profile page
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f0f8ff; 
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+.profile-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    animation: slideUp 0.8s ease-out;
+}
+
+.profile-header {
+    padding-top: 15%;
+    text-align: center;
+    border-bottom: 2px solid #008080;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-header h2 {
+    color: #008080; 
+    font-size: 28px;
+    margin: 0;
+}
+
+.profile-header p {
+    color: #666;
+    font-size: 18px;
+}
+
+.profile-content {
+    text-align: left;
+}
+
+.product-list {
+    display:grid;
+}
+
+.product-card {
+    background-color: #d1d0d3;
+    color: #fff;
+    height: 300px;
+    border-radius: 10px;
+    width: 250px;   
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    position: relative;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-card h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #fff; 
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #f0f0f0;
+}
+
+.product-image {
+    width: 100%;
+    height: 150px; 
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #fff; 
+}
+
+.button {
+    background-color: #FF6F61; 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #E65A50; 
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1024px) {
+    .profile-card {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    .product-list {
+        justify-content: space-between;
+        gap: 15px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-card {
+        width: 95%;
+        padding: 15px;
+    }
+    
+    .product-list {
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .product-card {
+        width: 180px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-card {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .product-list {
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .product-card {
+        width: 160px; 
+}
+} */

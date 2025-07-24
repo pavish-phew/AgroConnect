@@ -1,0 +1,95 @@
+.heart-container {
+  display: grid;
+  place-content: center;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+
+  svg {
+    height: 300px;
+    overflow: visible;
+    cursor: pointer;
+  }
+
+  label {
+    transform: translateX(-25px);
+  }
+
+  input[type="checkbox"] {
+    display: none;
+
+    + label {
+      width: 250px;
+      height: 250px;
+      position: relative;
+      display: grid;
+      place-content: center;
+
+      #center-heart {
+        #inner {
+          fill: transparent;
+          transition: fill 0.3s ease;
+        }
+        #outer {
+          fill: rgba(228, 122, 122, 0.918);
+          transition: fill 0.3s ease;
+        }
+      }
+
+      #left-hearts > *,
+      #right-hearts > * {
+        opacity: 0;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+      }
+    }
+
+    &:checked + label {
+      #center-heart {
+        #inner {
+          fill: #64d26d;
+        }
+        #outer {
+          fill: #64d26d;
+        }
+      }
+
+      #left-hearts > *,
+      #right-hearts > * {
+        transform-origin: center center;
+        animation: floatingHearts 0.65s cubic-bezier(0.12, 0.84, 0.5, 0.44) forwards;
+      }
+
+      #right-hearts {
+        g:first-child {
+          animation-delay: 0.3s;
+        }
+        g:last-child {
+          animation-delay: 0.1s;
+        }
+      }
+
+      #left-hearts {
+        g:first-child {
+          animation-delay: 0.2s;
+        }
+        g:last-child {
+          animation-delay: 0.5s;
+        }
+      }
+    }
+  }
+
+  @keyframes floatingHearts {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+  }
+}
